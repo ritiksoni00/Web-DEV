@@ -3,7 +3,7 @@
     text-align: justify;
     background-color: rgb(93, 117, 138);
     padding: 3%;
-    margin:  10%;
+    margin:  5%;
     position: relative;
 
 }
@@ -19,3 +19,13 @@ button{
     background-color: bisque;
 
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(199, 169, 169);
+    color: rgb(29, 21, 21);
+    text-align: center;
+  }

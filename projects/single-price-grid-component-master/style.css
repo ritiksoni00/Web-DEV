@@ -1,0 +1,31 @@
+#bl{
+
+    color: rgb(199, 199, 100);
+}
+
+#block {
+    margin: 25%;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 2%;
+}
+body {
+    background-color: hsl(204, 43%, 93%);
+
+}
+
+#col{
+    background-color: aqua;
+    width: 50%;
+
+}
+#col1 {
+    background-color: rgb(101, 155, 155);
+    width: 50%;
+}
+
+#tab{
+    border: none !important;
+    border-collapse: collapse;
+
+
+}
