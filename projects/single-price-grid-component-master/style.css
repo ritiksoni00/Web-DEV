@@ -1,31 +1,50 @@
-#bl{
-
-    color: rgb(199, 199, 100);
-}
-
-#block {
-    margin: 25%;
-    background-color:  hsl(0, 0%, 100%);
-    padding: 2%;
-}
 body {
-    background-color: hsl(204, 43%, 93%);
-
+    background-color: hsl(204, 24%, 65%);
 }
 
-#col{
-    background-color: aqua;
-    width: 50%;
-
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar content";
+    background-color: white;
+margin: 12%;
+box-shadow: 3px 3px 5px 6px rgba(122, 119, 119, 0.857);    
 }
-#col1 {
-    background-color: rgb(101, 155, 155);
-    width: 50%;
-}
-
-#tab{
-    border: none !important;
-    border-collapse: collapse;
 
 
-}
+
+
+    .grid-item-1{
+        grid-area: header;
+        padding: 2%;
+        
+    }
+    .grid-item-1> b{
+        color: hsl(179, 62%, 43%) ;
+
+    }
+    .grid-item-1 span{
+        color: hsl(71, 73%, 54%);
+    }
+
+
+
+    .grid-item-2{
+        grid-area: sidebar;
+        background-color: hsl(179, 62%, 43%);
+        padding: 10%;
+    }
+    .grid-item-2 > span {
+        text-emphasis: muted;
+    }
+
+
+
+    .grid-item-3{
+        grid-area: content;
+        background-color: hsl(179, 53%, 70%);
+        padding: 10%;
+
+    }
+    .grid-item-3
