@@ -3,8 +3,8 @@ body {
     margin-top: 300px;
     margin-bottom: 270px;
     margin-left: 500px;
-margin-right: 585px;
-box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px grey;
+    width: 700px;
 }
 
 
@@ -35,7 +35,7 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .col1 {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(173, 23%, 50%);
     padding: 25px;
     flex: 0 0 360px;
 
@@ -55,7 +55,7 @@ box-shadow: 10px 10px 5px grey;
 }
 
 .col2 {
-    background-color:hsl(173, 23%, 50%);
+    background-color: hsl(179, 62%, 43%);
     padding: 25px;
     flex: 0 0 360px;
 
