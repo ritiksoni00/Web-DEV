@@ -1,0 +1,97 @@
+body {
+background-color: hsl(0, 0%, 81%);
+color: rgb(255, 255, 255);
+
+}
+
+.ohk{
+    display: grid;
+    gap: 30px;
+    padding: 7%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+
+}
+
+
+
+
+img {
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+.text > b, p {
+    padding-left: 10px;
+    }
+    
+
+small {
+    font-size: 90%;
+    line-height: 2%;
+}
+
+
+/* first-grid */
+
+.one{
+    background-color:  hsl(263, 55%, 52%);
+    padding: 4%;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    grid-column: span 2;
+    border-radius: 15px;
+}
+
+/* two */
+
+.two{
+    background-color: hsl(217, 19%, 35%) ;
+    padding: 6%;
+    border-radius: 15px;
+
+}
+
+
+
+/* three */
+
+.three{
+    background-color: hsl(0, 0%, 100%) ;
+    padding: 6%;
+    color: black;
+    grid-row: span 2;
+    line-height: 22px;
+    width: 290px;
+    border-radius: 15px;
+
+}
+
+/* four */
+
+.four{
+    background-color: hsl(0, 0%, 100%) ;
+    padding: 4%;
+    color: black;
+    border-radius: 15px;
+
+}
+
+
+/* five */
+
+.five{
+    background-color: hsl(219, 29%, 14%);
+    padding: 5%;
+    grid-column: span 2;
+    border-radius: 15px;
+
+}
+
